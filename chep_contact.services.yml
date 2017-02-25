@@ -1,4 +1,0 @@
-services:
-  chep_contact.current_contact:
-    class: Drupal\chep_contact\ChepContact
-    arguments: ["@entity_type.manager", "@entity.query", "@language_manager"]
