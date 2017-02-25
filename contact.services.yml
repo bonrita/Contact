@@ -1,4 +1,4 @@
 services:
   contact.current_contact:
-    class: Drupal\contact\ChepContact
+    class: Drupal\contact\BrContact
     arguments: ["@entity_type.manager", "@entity.query", "@language_manager"]
